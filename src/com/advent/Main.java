@@ -68,5 +68,21 @@ public class Main {
         day4part2.solve();
         System.out.println();
         System.out.println();
+
+        System.out.println("------------");
+        System.out.println("Day 5 Part 1");
+        System.out.println("------------");
+        com.advent.day5.part1 day5part1 = new com.advent.day5.part1();
+        day5part1.solve();
+        System.out.println();
+        System.out.println();
+
+        System.out.println("------------");
+        System.out.println("Day 5 Part 2");
+        System.out.println("------------");
+        com.advent.day5.part2 day5part2 = new com.advent.day5.part2();
+        day5part2.solve();
+        System.out.println();
+        System.out.println();
     }
 }
